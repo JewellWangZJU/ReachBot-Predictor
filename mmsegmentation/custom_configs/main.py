@@ -9,8 +9,8 @@ losses_mappings = {
 
 # Associates a model name to its default weights
 default_checkpoint = {
-    "vit_vit-b16_mln_upernet_cracks": None,
-    "vit_vit-b16_mln_upernet_vessels": None,
+    "vit_vit-b16_mln_upernet_cracks": "https://download.openmmlab.com/mmsegmentation/v0.5/vit/upernet_vit-b16_mln_512x512_160k_ade20k/upernet_vit-b16_mln_512x512_160k_ade20k_20210624_130547-852fa768.pth",
+    "vit_vit-b16_mln_upernet_vessels": "https://download.openmmlab.com/mmsegmentation/v0.5/vit/upernet_vit-b16_mln_512x512_160k_ade20k/upernet_vit-b16_mln_512x512_160k_ade20k_20210624_130547-852fa768.pth",
 }
 
 # Associates a dataset name to its config file
