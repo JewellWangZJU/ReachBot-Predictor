@@ -8,7 +8,6 @@ from .smooth_gaussian_diffusion import apply_smooth_gaussian_diffusion
 from .smooth_skeletonization import soft_skeletonize, soft_skeletonize_thin
 from .utils import get_class_weight, weighted_loss
 from .visualization_utils import Plotter
-from toolbox.printing import debug as debug_fn
 from typing import Optional
 
 

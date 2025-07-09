@@ -9,7 +9,7 @@ import scipy
 import torch
 from PIL import Image
 from skimage.morphology import label
-from toolbox.printing import debug, print_color, warn
+from toolbox.printing import print_color, warn
 
 import wandb
 

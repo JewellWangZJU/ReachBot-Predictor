@@ -8,7 +8,7 @@ crop_size = (64, 64)
 data_preprocessor = dict(size=crop_size)
 model = dict(
     data_preprocessor=data_preprocessor,
-    pretrained="pretrain/upernet_vit-b16_mln_512x512_80k_ade20k_20210624_130547-0403cee1_fix.pth",
+    pretrained=None,
     decode_head=dict(
         num_classes=2,
         loss_decode=[

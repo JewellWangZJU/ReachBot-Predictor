@@ -9,7 +9,6 @@ from mmengine.config import Config, DictAction
 from mmengine.logging import print_log
 from mmengine.runner import Runner
 from mmseg.registry import RUNNERS
-from toolbox import aws
 
 
 def parse_args():

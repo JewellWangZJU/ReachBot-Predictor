@@ -239,7 +239,7 @@ if USE_WANDB:
             type="WandbVisBackend",
             init_kwargs=dict(
                 project=DATASET + "_segmentation" + WANDB_PROJECT_SUFFIX,
-                entity="single-shot-robot",
+                entity="jewellwangzju-zhejiang-university",
                 name=WANDB_RUN_NAME + "_" + tag,
                 group=WANDB_RUN_NAME,
             ),
